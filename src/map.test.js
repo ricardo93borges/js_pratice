@@ -1,7 +1,8 @@
 'use strict'
 
 import {expect} from 'chai'
-import map from './map'
+//import map from './map'
+import map from './map-recursive'
 
 it('map should be a function', () => {
     expect(map).to.be.a('function')
@@ -26,9 +27,4 @@ it('map([1,2] , (item,index) => index) should return [0,1]', () => {
 it('map([1,2], (item,index,array) => array) should return [[1,2],[1,2]]', () => {
     expect(map([1,2], (item,index,array) => array)).to.be.deep.equal([[1,2],[1,2]])
 })
-
-it('map should throw an error with message "func is not a function"', () => {
-    expect(map).to.throw(TypeError, /func is not a function/)
-})
-
 
