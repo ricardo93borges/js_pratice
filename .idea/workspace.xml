@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3cbfb63d-2251-4354-ae0b-9e2269ce1a7a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,16 +23,43 @@
         <entry file="file://$PROJECT_DIR$/src/map.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map-recursive.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map-recursive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map-recursive.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+              <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.recursive.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/filter.recursive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -41,8 +67,8 @@
       <file leaf-file-name="map.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/map.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="6" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -65,6 +91,9 @@
         <option value="$PROJECT_DIR$/src/map.js" />
         <option value="$PROJECT_DIR$/src/map.test.js" />
         <option value="$PROJECT_DIR$/src/map-recursive.js" />
+        <option value="$PROJECT_DIR$/src/filter.js" />
+        <option value="$PROJECT_DIR$/src/filter.test.js" />
+        <option value="$PROJECT_DIR$/src/filter.recursive.js" />
       </list>
     </option>
   </component>
@@ -120,6 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -142,6 +172,79 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Jest.filter([0,1,2], (item) =&gt; item) should return [1,2]">
+    <configuration name="filter should be a function" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/filter.test.js" />
+      <test-names>
+        <test-name value="filter should be a function" />
+      </test-names>
+    </configuration>
+    <configuration name="filter([0,1,2], (item) =&gt; item) should return [1,2]" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/filter.test.js" />
+      <test-names>
+        <test-name value="filter([0,1,2], (item) =&gt; item) should return [1,2]" />
+      </test-names>
+    </configuration>
+    <configuration name="filter([1,2,3,2,1,5], (item,index,array) =&gt; index === array.indexOf(item)) should return [1,2,3]" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/filter.test.js" />
+      <test-names>
+        <test-name value="filter([1,2,3,2,1,5], (item,index,array) =&gt; index === array.indexOf(item)) should return [1,2,3]" />
+      </test-names>
+    </configuration>
+    <configuration name="filter([1,2,3,5], (item,index) =&gt; item === index+1) should return [1,2,3]" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/filter.test.js" />
+      <test-names>
+        <test-name value="filter([1,2,3,5], (item,index) =&gt; item === index+1) should return [1,2,3]" />
+      </test-names>
+    </configuration>
+    <configuration name="filter([1,2,3], (item) =&gt; item) should return [1,2,3]" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/filter.test.js" />
+      <test-names>
+        <test-name value="filter([1,2,3], (item) =&gt; item) should return [1,2,3]" />
+      </test-names>
+    </configuration>
+    <list>
+      <item itemvalue="Jest.filter([1,2,3,5], (item,index) =&gt; item === index+1) should return [1,2,3]" />
+      <item itemvalue="Jest.filter should be a function" />
+      <item itemvalue="Jest.filter([1,2,3,2,1,5], (item,index,array) =&gt; index === array.indexOf(item)) should return [1,2,3]" />
+      <item itemvalue="Jest.filter([1,2,3], (item) =&gt; item) should return [1,2,3]" />
+      <item itemvalue="Jest.filter([0,1,2], (item) =&gt; item) should return [1,2]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.filter([0,1,2], (item) =&gt; item) should return [1,2]" />
+        <item itemvalue="Jest.filter([1,2,3], (item) =&gt; item) should return [1,2,3]" />
+        <item itemvalue="Jest.filter should be a function" />
+        <item itemvalue="Jest.filter([1,2,3,2,1,5], (item,index,array) =&gt; index === array.indexOf(item)) should return [1,2,3]" />
+        <item itemvalue="Jest.filter([1,2,3,5], (item,index) =&gt; item === index+1) should return [1,2,3]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,26 +256,48 @@
       <option name="presentableId" value="Default" />
       <updated>1528065758331</updated>
       <workItem from="1528065759601" duration="3136000" />
-      <workItem from="1528125499721" duration="1820000" />
+      <workItem from="1528125499721" duration="2627000" />
+      <workItem from="1528212421561" duration="2537000" />
+      <workItem from="1528384616528" duration="414000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="filter([1,2,3],_(item)_=__item___2)_should_return_[1] - 2018.06.05 at 12h 50m 55s.xml">
+      <configuration name="filter([1,2,3], (item) =&gt; item &lt; 2) should return [1]" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="filter([1,2,3,5],_(item,index)_=__item_===_index+1)_should_return_[1,2,3] - 2018.06.05 at 12h 52m 55s.xml">
+      <configuration name="filter([1,2,3,5], (item,index) =&gt; item === index+1) should return [1,2,3]" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="filter_should_be_a_function - 2018.06.05 at 12h 53m 06s.xml">
+      <configuration name="filter should be a function" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="filter([1,2,3,5],_(item,index)_=__item_===_index+1)_should_return_[1,2,3] - 2018.06.05 at 12h 53m 25s.xml">
+      <configuration name="filter([1,2,3,5], (item,index) =&gt; item === index+1) should return [1,2,3]" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="filter([1,2,3,2,1,5],_(item,index,array)_=__index_===_array_indexOf(item))_should_return_[1,2,3] - 2018.06.05 at 12h 57m 23s.xml">
+      <configuration name="filter([1,2,3,2,1,5], (item,index,array) =&gt; index === array.indexOf(item)) should return [1,2,3]" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="filter([1,2,3,2,1,5],_(item,index,array)_=__index_===_array_indexOf(item))_should_return_[1,2,3] - 2018.06.05 at 12h 58m 49s.xml">
+      <configuration name="filter([1,2,3,2,1,5], (item,index,array) =&gt; index === array.indexOf(item)) should return [1,2,3]" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4956000" />
+    <option name="totallyTimeSpent" value="8714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="928" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49887133" visible="true" weight="0.28725702" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49887133" weight="0.28725702" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32889345" />
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.33913934" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.53220695" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3970433" />
       <window_info id="Favorites" order="1" sideWeight="0.5011287" side_tool="true" weight="0.28725702" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -183,6 +308,26 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32924336" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49887133" visible="true" weight="0.28725702" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32889345" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32924336" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3970433" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info id="Favorites" order="1" sideWeight="0.5011287" side_tool="true" weight="0.28725702" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -191,6 +336,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map-recursive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="6" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="112" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map-recursive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -212,21 +413,42 @@
     <entry file="file://$PROJECT_DIR$/src/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/map.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map-recursive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="6" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter.recursive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="93" />
         </state>
       </provider>
     </entry>
